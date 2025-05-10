@@ -1,0 +1,19 @@
+.main_five_column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media (min-width: 768px) {
+    .main_five_column{
+        flex-direction: row;
+    }
+}
+
+.news-card{
+    display: flex;
+    flex-direction: column;
+    flex-basis:20%;
+    padding: 18px;
+    gap:18px;
+}
